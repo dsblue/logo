@@ -14,11 +14,7 @@ D = {
         displayName = "Steel bars",
 				onPickup = "inv..",
 				onLook = "This is a key",
-				onUse = function ( c ) 
-              if (c["key"] == nil) then
-                print ("Opening bars")
-              end
-            end
+				onUse = function ( c ) if (c["key"] == nil) then print ("Opening bars") end end
 			}
 		},
 		actors = {
